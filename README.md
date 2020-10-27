@@ -24,6 +24,11 @@ python -m covid-mask-detector.train
 python -m covid-mask-detector.video modelPath videoPath
 ```
 
+## Testing on live camera
+```sh
+python -m covid-mask-detector.cam modelPath
+```
+
 ### Usage
 ```
 Usage: video.py [OPTIONS] MODELPATH VIDEOPATH
@@ -35,6 +40,7 @@ Usage: video.py [OPTIONS] MODELPATH VIDEOPATH
 Options:
   --output PATH  specify output path to save video with annotations
 ```
+
 #### Pretrained model
 [covid-mask-detector/models/face_mask.ckpt](https://github.com/JadHADDAD92/covid-mask-detector/blob/master/covid-mask-detector/models/face_mask.ckpt)
 
